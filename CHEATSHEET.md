@@ -43,6 +43,14 @@ Adds modified files to the cache to be later committed.
 
 `$ git add [path_to_file | directory]`
 
+## Removing Files from Being Tracked
+It will keep the file.
+
+`$ git rm --cached <file>`
+
+If you want to remove a whole folder, you need to remove all files in that folder recursively.
+`$ git rm -r --cached <folder>`
+
 ## Committing Changes
 Commits the file changes that you have added to the cache via git add.
 
